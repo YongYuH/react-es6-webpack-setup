@@ -23,7 +23,7 @@ export default class Main extends React.Component {
         return (
             <div>
                 <input type="button" onClick={this.handleClick} value="Press Me!"/>
-                {this.state.isActive ? <TestOne /> : <TestTwo />}
+                {this.state.isActive ? <TestTwo /> : <TestOne />}
             </div>      
         );
     }
