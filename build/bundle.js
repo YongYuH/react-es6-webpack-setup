@@ -109,7 +109,7 @@
 	                'div',
 	                null,
 	                _react2.default.createElement('input', { type: 'button', onClick: this.handleClick, value: 'Press Me!' }),
-	                this.state.isActive ? _react2.default.createElement(_TestOne2.default, null) : _react2.default.createElement(_TestTwo2.default, null)
+	                this.state.isActive ? _react2.default.createElement(_TestTwo2.default, null) : _react2.default.createElement(_TestOne2.default, null)
 	            );
 	        }
 	    }]);
@@ -123,29 +123,6 @@
 	var myElement = document.getElementById('content');
 
 	(0, _reactDom.render)(_react2.default.createElement(Main, null), myElement);
-
-	// var Main = React.createClass({
-	//     getInitialState: function() {
-	//         return {
-	//           switch: true
-	//         };
-	//     },
-	//     _toggle() {
-	//         this.setState({
-	//             switch: !this.state.switch
-	//         });
-	//     },
-	//     render() {
-	//         return (
-	//             <div>
-	//                 <input type="button" onClick={this._toggle} value="Press Me!"/>
-	//                 {this.state.switch ? <TestOne /> : <TestTwo />}
-	//             </div>     
-	//         );
-	//     }
-	// });
-
-	// React.render(<Main />, document.body);
 
 /***/ },
 /* 2 */
@@ -21268,20 +21245,6 @@
 	exports.default = TestOne;
 	;
 
-	// 'use strict';
-
-	// var React = require('react');
-
-	// var TestOne = React.createClass({
-	//     render() {
-	//         return (
-	//             <div>Hello I am TestOne Component</div>
-	//         );
-	//     }
-	// });
-
-	// module.exports = TestOne;
-
 /***/ },
 /* 174 */
 /***/ function(module, exports, __webpack_require__) {
@@ -21331,20 +21294,6 @@
 
 	exports.default = TestTwo;
 	;
-
-	// 'use strict';
-
-	// var React = require('react');
-
-	// var TestTwo = React.createClass({
-	//     render() {
-	//         return (
-	//             <h1>Hello I am TestTwo Component</h1>
-	//         );
-	//     }
-	// });
-
-	// module.exports = TestTwo;
 
 /***/ }
 /******/ ]);
