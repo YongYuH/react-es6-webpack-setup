@@ -1,6 +1,6 @@
 var path = require('path');
 
-var config = {
+module.exports = {
     entry: [path.resolve(__dirname, 'app/main.js')],
     output: {
         path: path.resolve(__dirname, 'build'),
@@ -15,5 +15,3 @@ var config = {
         ]
     }
 };
-
-module.exports = config;
