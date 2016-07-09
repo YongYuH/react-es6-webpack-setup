@@ -281,9 +281,8 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 
 ## 功能  
 顯示Hello I am TestOne Component  
-(render TestOne Component: <div>Hello I am TestOne Component </div>)  
-按下Click me按鈕後變成顯示粗體的Hello I am TestOne Component  
-(render TestTwo Component: <h1>Hello I am TestOne Component </h1>)  
+按下Click me按鈕後  
+變成顯示粗體的Hello I am TestOne Component  
 ### [功能Demo影片]  
 
 
