@@ -16,6 +16,7 @@ npm -v
 確定**npm**安裝完成後即可開始接下來的步驟  
 
 ## React JS+webpack環境設定&環境測試
+> 以下步驟參考[build-a-hn-front-page]  
 ### 安裝webpack
 使用*指令*  
 ```sh
@@ -177,10 +178,10 @@ Hello World被放進id為content的DOM元素中
 ...
 ```
 經過以上步驟，我們已將所有的環境設定建立完成  
-以上步驟參考[build-a-hn-front-page]  
 
-## 按鈕轉換state專案練習
-此專案程式碼參考[Rhadow's Tech Note]  
+
+## 用ReactJS+webpack實作按鈕轉換state功能  
+> 此專案程式碼參考[Rhadow's Tech Note]  
 ### 資料夾與檔案結構
 按照以下結構建立**檔案**與*資料夾*來建立專案:  
 -  *app*/
@@ -221,10 +222,10 @@ export default class TestTwo extends React.Component {
 };
 ```
 import和export為es6的語法  
-用法可參考 [module 影片 Javascript ES6 Cheatsheet #2] 13:33 ~ 17:37  
+用法可參考 [module from 我的筆記] 或者是 [module 影片 Javascript ES6 Cheatsheet #2] 13:33 ~ 17:37  
 class和extend也是es6的語法  
-用法可參考 [class 影片 Javascript ES6 Cheatsheet #2] 4:32 ~ 7:11  
-export default用法參考  [Modules 我的筆記]  
+用法可參考 [class from 我的筆記] 或者是 [class 影片 Javascript ES6 Cheatsheet #2] 4:32 ~ 7:11  
+export default用法參考  [ES6 Modules from 我的筆記]  
 
 React es6的寫法和之前版本寫法的差異  
 可參考 [React.createClass versus extends React.Component]  
@@ -289,15 +290,17 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 
 
 [install|npm Document]: https://docs.npmjs.com/cli/install
-[影片 REACT JS TUTORIAL #1 - cleaner setting for developers]: https://www.youtube.com/watch?v=MhkGQAoc7bc#t=8m51s
-[WEBPACK入門教學筆記]: http://blog.kkbruce.net/2015/10/webpack.html
-[Regular Expression]: https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions
+[影片 REACT JS TUTORIAL #1 - cleaner setting for developers]: https://www.youtube.com/watch?v=MhkGQAoc7bc#t=8m51s  
+[WEBPACK入門教學筆記]: http://blog.kkbruce.net/2015/10/webpack.html  
+[Regular Expression]: https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions  
 [stackoverflow: Webpack - Error: Cannot define 'query' and multiple loaders in loaders list]: http://stackoverflow.com/questions/35266706/webpack-error-cannot-define-query-and-multiple-loaders-in-loaders-list  
 [build-a-hn-front-page]: https://github.com/theJian/build-a-hn-front-page  
 [Rhadow's Tech Note]: https://rhadow.github.io/2015/04/02/webpack-workflow/  
+[module from 我的筆記]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
 [module 影片 Javascript ES6 Cheatsheet #2]: https://www.youtube.com/watch?v=LmL0Gh193M0&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=13m33s  
+[class from 我的筆記]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
 [class 影片 Javascript ES6 Cheatsheet #2]: https://www.youtube.com/watch?v=LmL0Gh193M0&index=2&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif#t=4m32s  
-[Modules 我的筆記]: http://www.evernote.com/l/AdrV7kNFZkxPy6gk9TjJs8RliE_2Uce-ZmU/  
+[ES6 Modules from 我的筆記]: http://www.evernote.com/l/AdrV7kNFZkxPy6gk9TjJs8RliE_2Uce-ZmU/  
 [React.createClass versus extends React.Component]: https://toddmotto.com/react-create-class-versus-component/  
 [destructure 影片 Javascript ES6 Cheatsheet]: https://www.youtube.com/watch?v=AfWYO8t7ed4&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=1m35s
 [Best Practices for Component State in React.js]: http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html  
