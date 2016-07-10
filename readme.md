@@ -425,4 +425,4 @@ module.exports = {
 [Best Practices for Component State in React.js]: http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html  
 [inline (Evernote)]:  http://www.evernote.com/l/AdrtXqCsoXhJD7RgJMy25oTI_4NNRINqKR0/  
 [inline (影片REACT JS TUTORIAL #1)]: https://www.youtube.com/watch?v=MhkGQAoc7bc&app=desktop#t=8m01s  
-[功能Demo影片]: https://www.youtube.com/watch?v=5iGb3woErg8&feature=youtu.be  
+[功能Demo影片]: https://www.youtube.com/watch?v=8vCE1fTz4-8  
