@@ -294,10 +294,14 @@ npm i webpack-dev-server@1.14.1 -D
 
 ##### 到 **package.json** 內加入一個新 dev 的*指令*:  
 ```js
-"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base build"
+{
+...
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "./node_modules/.bin/webpack",
+      "dev": "./node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --inline --hot --content-base build"
+  },
+...
 }
 ```
 dev內的指令解釋如下:  
@@ -306,7 +310,7 @@ dev內的指令解釋如下:
 `--devtool eval` 會顯示出發生錯誤的行數與檔案名稱  
 `--progress` 會顯示出打包的過程  
 `--colors` 會幫 **webpack** 顯示的訊息加入顏色  
-`--inline --hot`  參考 [inline (Evernote)] 或 [inline (影片REACT JS TUTORIAL #1)]
+`--inline --hot`  參考 [inline (Evernote)] 或 [inline (影片REACT JS TUTORIAL #1)]  
 `--content-based build` 指向專案最終輸出的資料夾*build*  
 
 ##### 再來到 **webpack.config.js** 的 entry 屬性內加入 'webpack/hot/dev-server'如下:
