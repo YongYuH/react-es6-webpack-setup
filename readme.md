@@ -32,7 +32,7 @@ npm i webpack@1.13.1 -D
 ```
 `npm install`可簡寫成`npm i`  
 `--save-dev`可以簡寫成`-D`  
-`npm install`相關指令簡寫可參考 [install|npm Document]  
+`npm install`相關指令簡寫可參考 [install | npm Document]  
 `--save-dev`指令代表安裝在哪參考 [WEBPACK入門教學筆記]  
 
 ### 資料夾與檔案結構
@@ -289,7 +289,7 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 ### [功能Demo影片]  
 
 [build-a-hn-front-page]: https://github.com/theJian/build-a-hn-front-page  
-[install|npm Document]: https://docs.npmjs.com/cli/install  
+[install | npm Document]: https://docs.npmjs.com/cli/install  
 [cleaner installation for developers (Evernote)]: http://www.evernote.com/l/AdrtXqCsoXhJD7RgJMy25oTI_4NNRINqKR0/  
 [cleaner installation for developers (影片 REACT JS TUTORIAL #1)]: https://www.youtube.com/watch?v=MhkGQAoc7bc#t=8m51s  
 [WEBPACK入門教學筆記]: http://blog.kkbruce.net/2015/10/webpack.html  
