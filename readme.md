@@ -352,6 +352,11 @@ module.exports = {
 react-hot-loader 的功用就是在不清除 state 的狀態下更新畫面  
 讓我們趕快來看看該如何達成這個效果吧。
 
+##### 安裝 react-hot-loader
+```sh
+npm i react-hot-loader@1.3.0 -D
+```
+
 ##### 修改 **webpack.config.js** 內的 entry 屬性如下:
 ```js
 ...
