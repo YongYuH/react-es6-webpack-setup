@@ -305,4 +305,4 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 [desturcturing assignment (Evernote)]: http://www.evernote.com/l/Adq_4cIbPFJAMra3n8Dc7DTJlvNwCO-FZzM/  
 [destructuring assignment (影片 Javascript ES6 Cheatsheet)]: https://www.youtube.com/watch?v=AfWYO8t7ed4&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=1m35s
 [Best Practices for Component State in React.js]: http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html  
-[功能Demo影片]: https://www.youtube.com/watch?v=5iGb3woErg8&feature=youtu.be  
+[功能Demo影片]: https://www.youtube.com/watch?v=8vCE1fTz4-8  
