@@ -17,6 +17,7 @@ npm -v
 
 ## React JS+webpack環境設定&環境測試
 > 以下步驟參考 [build-a-hn-front-page]  
+
 ### 安裝webpack
 使用*指令*  
 ```sh
@@ -182,6 +183,7 @@ Hello World被放進id為content的DOM元素中
 
 ## 用ReactJS+webpack實作按鈕轉換state功能  
 > 此專案程式碼參考 [Rhadow's Tech Note]  
+
 ### 資料夾與檔案結構
 按照以下結構建立**檔案**與*資料夾*來建立專案:  
 -  *app*/
