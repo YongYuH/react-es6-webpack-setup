@@ -109,7 +109,7 @@ npm run build
 ``` 
 就等同於輸入*指令*`./node_modules/.bin/webpack`  
 為什麼不直接用`webpack`而是前面要用`./node_modules/.bin/webpack`呢？  
-原因可參考 [cleaner installation for developers from 我的筆記] 或 [cleaner installation for developers 影片 REACT JS TUTORIAL #1] 8:51 ~ 10:08
+原因可參考 [cleaner installation for developers (Evernote)] 或 [cleaner installation for developers (影片 REACT JS TUTORIAL #1)] 8:51 ~ 10:08
 
 ### 安裝需要的模組
 安裝 [React](https://facebook.github.io/react/)
@@ -222,10 +222,10 @@ export default class TestTwo extends React.Component {
 };
 ```
 import和export為es6的語法  
-用法可參考 [module from 我的筆記] 或者是 [module 影片 Javascript ES6 Cheatsheet #2] 13:33 ~ 17:37  
+用法可參考 [module (Evernote)] 或者是 [module (影片 Javascript ES6 Cheatsheet #2)] 13:33 ~ 17:37  
 class和extend也是es6的語法  
-用法可參考 [class from 我的筆記] 或者是 [class 影片 Javascript ES6 Cheatsheet #2] 4:32 ~ 7:11  
-export default用法參考 [ES6 Modules from 我的筆記]  
+用法可參考 [class (Evernote)] 或者是 [class (影片 Javascript ES6 Cheatsheet #2)] 4:32 ~ 7:11  
+export default用法參考 [ES6 Modules (Evernote)]  
 
 React es6的寫法和之前版本寫法的差異  
 可參考 [React.createClass versus extends React.Component]  
@@ -267,8 +267,8 @@ var myElement = document.getElementById('content');
 
 render(<Main />, myElement);
 ```
-{ render } 為es6 destructure的寫法  
-詳細用法可參考 [destructure 影片 Javascript ES6 Cheatsheet]  
+{ render } 為es6 destructuring assignment的寫法  
+詳細用法可參考 [desturcturing assignment (Evernote)] 或 [destructuring assignment (影片 Javascript ES6 Cheatsheet)]  
 關於component state的寫法  
 可參考 [Best Practices for Component State in React.js]  
 這邊要注意一點  
@@ -288,18 +288,19 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 
 [build-a-hn-front-page]: https://github.com/theJian/build-a-hn-front-page  
 [install|npm Document]: https://docs.npmjs.com/cli/install  
-[cleaner installation for developers from 我的筆記]: http://www.evernote.com/l/AdrtXqCsoXhJD7RgJMy25oTI_4NNRINqKR0/  
-[cleaner installation for developers 影片 REACT JS TUTORIAL #1]: https://www.youtube.com/watch?v=MhkGQAoc7bc#t=8m51s  
+[cleaner installation for developers (Evernote)]: http://www.evernote.com/l/AdrtXqCsoXhJD7RgJMy25oTI_4NNRINqKR0/  
+[cleaner installation for developers (影片 REACT JS TUTORIAL #1)]: https://www.youtube.com/watch?v=MhkGQAoc7bc#t=8m51s  
 [WEBPACK入門教學筆記]: http://blog.kkbruce.net/2015/10/webpack.html  
 [Regular Expression]: https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions  
 [stackoverflow: Webpack - Error: Cannot define 'query' and multiple loaders in loaders list]: http://stackoverflow.com/questions/35266706/webpack-error-cannot-define-query-and-multiple-loaders-in-loaders-list  
 [Rhadow's Tech Note]: https://rhadow.github.io/2015/04/02/webpack-workflow/  
-[module from 我的筆記]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
-[module 影片 Javascript ES6 Cheatsheet #2]: https://www.youtube.com/watch?v=LmL0Gh193M0&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=13m33s  
-[class from 我的筆記]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
-[class 影片 Javascript ES6 Cheatsheet #2]: https://www.youtube.com/watch?v=LmL0Gh193M0&index=2&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif#t=4m32s  
-[ES6 Modules from 我的筆記]: http://www.evernote.com/l/AdrV7kNFZkxPy6gk9TjJs8RliE_2Uce-ZmU/  
+[module (Evernote)]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
+[module (影片 Javascript ES6 Cheatsheet #2)]: https://www.youtube.com/watch?v=LmL0Gh193M0&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=13m33s  
+[class (Evernote)]: http://www.evernote.com/l/AdrkscfrSptLFJIdXsk_wWFZBQRpnjDUnAM/  
+[class (影片 Javascript ES6 Cheatsheet #2)]: https://www.youtube.com/watch?v=LmL0Gh193M0&index=2&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif#t=4m32s  
+[ES6 Modules (Evernote)]: http://www.evernote.com/l/AdrV7kNFZkxPy6gk9TjJs8RliE_2Uce-ZmU/  
 [React.createClass versus extends React.Component]: https://toddmotto.com/react-create-class-versus-component/  
-[destructure 影片 Javascript ES6 Cheatsheet]: https://www.youtube.com/watch?v=AfWYO8t7ed4&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=1m35s
+[desturcturing assignment (Evernote)]: http://www.evernote.com/l/Adq_4cIbPFJAMra3n8Dc7DTJlvNwCO-FZzM/  
+[destructuring assignment (影片 Javascript ES6 Cheatsheet)]: https://www.youtube.com/watch?v=AfWYO8t7ed4&list=PLoYCgNOIyGACDQLaThEEKBAlgs4OIUGif&index=1#t=1m35s
 [Best Practices for Component State in React.js]: http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html  
 [功能Demo影片]: https://www.youtube.com/watch?v=5iGb3woErg8&feature=youtu.be  
