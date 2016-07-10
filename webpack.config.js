@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 
 module.exports = {
     entry: [path.resolve(__dirname, 'app/main.js')],
@@ -10,7 +11,8 @@ module.exports = {
         loaders: [
         {
             test: /\.js$/,
-            loaders: ['babel?presets[]=es2015,presets[]=react']
+            loaders: ['react-hot', 'babel?presets[]=es2015,presets[]=react'],
+            include: path.join(__dirname, 'app')
         }
         ]
     }
