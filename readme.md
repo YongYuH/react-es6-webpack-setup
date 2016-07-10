@@ -283,7 +283,7 @@ React的createClass方法(舊寫法)的this的context一律對應到class
 無打字錯誤的話，應該能看到功能執行  
 
 ## 使用 webpack-dev-server 實現 LiveReload  
-> 以下內容參考[Rhadow's Tech Note]  
+> 以下內容參考 [Rhadow's Tech Note]  
 
 每次我們修改程式碼，想要看到執行結果時，都必須要輸入*指令* `npm run build` 還要到瀏覽器重新整理，非常麻煩  
 **webpack-dev-server** 讓我們可以省去這個麻煩  
