@@ -270,7 +270,7 @@ var myElement = document.getElementById('content');
 render(<Main />, myElement);
 ```
 { render } 為es6 destructuring assignment的寫法  
-詳細用法可參考 [desturcturing assignment (Evernote)] 或 [destructuring assignment (影片 Javascript ES6 Cheatsheet)]  
+詳細用法可參考 [desturcturing assignment (Evernote)] 或 [destructuring assignment (影片 Javascript ES6 Cheatsheet)] 1:35 ~ 10:51  
 關於component state的寫法  
 可參考 [Best Practices for Component State in React.js]  
 這邊要注意一點  
