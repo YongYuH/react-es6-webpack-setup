@@ -310,7 +310,7 @@ dev內的指令解釋如下:
 `--devtool eval` 會顯示出發生錯誤的行數與檔案名稱  
 `--progress` 會顯示出打包的過程  
 `--colors` 會幫 **webpack** 顯示的訊息加入顏色  
-`--inline --hot`  參考 [inline (Evernote)] 或 [inline (影片REACT JS TUTORIAL #1)]  
+`--inline --hot`  參考 [inline (Evernote)] 或 [inline (影片REACT JS TUTORIAL #1)] 8:01 ~ 8:50  
 `--content-based build` 指向專案最終輸出的資料夾*build*  
 
 ##### 再來到 **webpack.config.js** 的 entry 屬性內加入 'webpack/hot/dev-server'如下:
@@ -334,7 +334,9 @@ module.exports = {
 };
 ```
 這樣就完成 LiveReload 的功能囉  
-執行 `npm run dev` 後開啟瀏覽器到 http://localhost:8080/ 檢查是否正確執行程式，也可試著改變程式碼，觀察瀏覽器畫面是否有跟著變動。
+執行 `npm run dev` 後開啟瀏覽器到 <http://localhost:8080/>  
+檢查程式是否正確執行  
+也可試著改變程式碼，觀察瀏覽器畫面是否有跟著變動。
 
 ## 功能  
 顯示Hello I am TestOne Component  
