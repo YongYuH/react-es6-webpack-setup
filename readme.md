@@ -1,4 +1,4 @@
-# webpack-basic-setup
+# react-es6-webpack-setup
 
 在使用webpack建立ReactJS專案之前，要先安裝[nodeJS](https://nodejs.org)，安裝完後  
 輸入*指令*
