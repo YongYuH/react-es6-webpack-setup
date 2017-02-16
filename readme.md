@@ -1,6 +1,6 @@
 # react-es6-webpack-setup
 
-[功能Demo影片]: https://www.youtube.com/watch?v=8vCE1fTz4-8  
+### [功能Demo影片]  
 
 在使用webpack建立ReactJS專案之前，要先安裝[nodeJS](https://nodejs.org)，安裝完後  
 輸入*指令*
@@ -411,7 +411,6 @@ module.exports = {
 顯示Hello I am TestOne Component  
 按下Click me按鈕後  
 變成顯示粗體的Hello I am TestOne Component  
-### [功能Demo影片]  
 
 [build-a-hn-front-page]: https://github.com/theJian/build-a-hn-front-page  
 [install | npm Document]: https://docs.npmjs.com/cli/install  
@@ -432,3 +431,4 @@ module.exports = {
 [Best Practices for Component State in React.js]: http://brewhouse.io/blog/2015/03/24/best-practices-for-component-state-in-reactjs.html  
 [inline (Evernote)]:  http://www.evernote.com/l/AdrtXqCsoXhJD7RgJMy25oTI_4NNRINqKR0/  
 [inline (影片REACT JS TUTORIAL #1)]: https://www.youtube.com/watch?v=MhkGQAoc7bc&app=desktop#t=8m01s  
+[功能Demo影片]: https://www.youtube.com/watch?v=8vCE1fTz4-8  
